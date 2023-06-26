@@ -53,7 +53,7 @@ module.exports = {
   links: [
     {
       name: 'GitHub',
-      link: 'https://github.com/Chiheisen-Union/Chiheisen-Vercel-Inde',
+      link: 'https://github.com/Chiheisen-Union/Chiheisen-Vercel-Index',
     },
   ],
 
