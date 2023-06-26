@@ -7,7 +7,7 @@
   "packageRules": [
     {
       "matchUpdateTypes": [
-        "minor",
+        "major",
         "patch"
       ],
       "matchCurrentVersion": "!/^0/",
