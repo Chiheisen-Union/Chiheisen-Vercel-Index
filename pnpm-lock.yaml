@@ -176,8 +176,8 @@ devDependencies:
     specifier: ^8.6.0
     version: 8.6.0(eslint@8.43.0)
   i18next-parser:
-    specifier: ^7.6.0
-    version: 7.6.0
+    specifier: ^8.0.0
+    version: 8.0.0
   postcss:
     specifier: ^8.4.21
     version: 8.4.21
@@ -208,6 +208,7 @@ packages:
     engines: {node: '>=6.9.0'}
     dependencies:
       regenerator-runtime: 0.13.11
+    dev: false
 
   /@babel/runtime@7.22.5:
     resolution: {integrity: sha512-ecjvYlnAaZ/KVneE/OdKYBYfgXV3Ptu6zQWmgEF7vwKhQnvVS6bjMD2XYgj+SNvQ1GfK/pjgokfPkC/2CO8CuA==}
@@ -2692,12 +2693,12 @@ packages:
     resolution: {integrity: sha512-7fgSH8nVhXSBYPHR/W3tEXXhcnwHwNiND4Dfx9knzPzdsWTUTL/TdDVV+DY0dL0asHKLbdoJaXS4LdVW6R8MVQ==}
     dev: false
 
-  /i18next-parser@7.6.0:
-    resolution: {integrity: sha512-NpBhaPzQXo9mo5nBP/eniOgUOlbDEd6WV7oEslUz3cxM8vClCz4c09iJ16tWUOTqbqSwoN2qhU2Y8w23SMwSnw==}
-    engines: {node: ^14.13.1 || >=16.0.0 || >=18.0.0, npm: '>=6', yarn: '>=1'}
+  /i18next-parser@8.0.0:
+    resolution: {integrity: sha512-WnpIXJlwgUTwnlEFLJpL5E8Y7faWCV/GVqIJXJos15Zwoic5k3QXV3QodP4uYp8W1T1w4y5wXrSEGS1Y4obxCg==}
+    engines: {node: '>=16.0.0 || >=18.0.0 || >=20.0.0', npm: '>=6', yarn: '>=1'}
     hasBin: true
     dependencies:
-      '@babel/runtime': 7.20.13
+      '@babel/runtime': 7.22.5
       broccoli-plugin: 4.0.7
       cheerio: 1.0.0-rc.12
       colors: 1.4.0
@@ -2936,11 +2937,6 @@ packages:
     resolution: {integrity: sha512-Fd4gABb+ycGAmKou8eMftCupSir5lRxqf4aD/vd0cD2qc4HL07OjCeuHMr8Ro4CoMaeCKDB0/ECBOVWjTwUvPQ==}
     engines: {node: '>=8'}
     dev: true
-
-  /is-plain-obj@4.0.0:
-    resolution: {integrity: sha512-NXRbBtUdBioI73y/HmOhogw/U5msYPC9DAtGkJXeFcFWSFZw0mCUsPxk/snTuJHzNKA8kLBK4rH97RMB1BfCXw==}
-    engines: {node: '>=12'}
-    dev: false
 
   /is-plain-obj@4.1.0:
     resolution: {integrity: sha512-+Pgi+vMuUNkJyExiMBt5IlFoMyKnr5zhJ4Uspz58WOhBF5QoIZkFyNHIbBAtHwzVAgk5RtndVNsDRN61/mmDqg==}
@@ -5169,7 +5165,7 @@ packages:
       bail: 2.0.2
       extend: 3.0.2
       is-buffer: 2.0.5
-      is-plain-obj: 4.0.0
+      is-plain-obj: 4.1.0
       trough: 2.0.2
       vfile: 5.3.0
     dev: false
