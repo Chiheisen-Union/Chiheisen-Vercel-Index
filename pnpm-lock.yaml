@@ -66,8 +66,8 @@ dependencies:
     specifier: ^13.1.6
     version: 13.1.6(react-dom@18.2.0)(react@18.2.0)
   next-i18next:
-    specifier: ^13.0.3
-    version: 13.0.3(i18next@23.0.0)(next@13.1.6)(react-i18next@12.1.4)(react@18.2.0)
+    specifier: ^14.0.0
+    version: 14.0.0(i18next@23.0.0)(next@13.1.6)(react-i18next@12.1.4)(react@18.2.0)
   nextjs-progressbar:
     specifier: ^0.0.16
     version: 0.0.16(next@13.1.6)(react@18.2.0)
@@ -3709,14 +3709,14 @@ packages:
     resolution: {integrity: sha512-OWND8ei3VtNC9h7V60qff3SVobHr996CTwgxubgyQYEpg290h9J0buyECNNJexkFm5sOajh5G116RYA1c8ZMSw==}
     dev: true
 
-  /next-i18next@13.0.3(i18next@23.0.0)(next@13.1.6)(react-i18next@12.1.4)(react@18.2.0):
-    resolution: {integrity: sha512-7AA8J6WbkxRBtSf1+97LSAE7btxWZHsBIJEJ3FuTSBgYtpRiO5NGjcb8XbNAlz6yGU0TtS+yZE+/Wu83KhIT1Q==}
+  /next-i18next@14.0.0(i18next@23.0.0)(next@13.1.6)(react-i18next@12.1.4)(react@18.2.0):
+    resolution: {integrity: sha512-umv8hOZoSoAA+td3ErfemyO/5Ib2pnYCdQ8/Oy+fncS2skFIL3hHKRer3Oa3Nfm4Xbv5p6DHWzm3NhT1j4tWwg==}
     engines: {node: '>=14'}
     peerDependencies:
-      i18next: ^22.0.6
+      i18next: ^23.0.1
       next: '>= 12.0.0'
       react: '>= 17.0.2'
-      react-i18next: ^12.1.1
+      react-i18next: ^13.0.0
     dependencies:
       '@babel/runtime': 7.22.5
       '@types/hoist-non-react-statics': 3.3.1
