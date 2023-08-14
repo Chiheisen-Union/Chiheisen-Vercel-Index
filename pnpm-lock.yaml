@@ -87,8 +87,8 @@ dependencies:
     specifier: ^0.17.0
     version: 0.17.0(react-dom@18.2.0)(react@18.2.0)
   react-cookie:
-    specifier: ^4.1.1
-    version: 4.1.1(react@18.2.0)
+    specifier: ^5.0.0
+    version: 5.0.0(react@18.2.0)
   react-copy-to-clipboard:
     specifier: ^5.0.3
     version: 5.1.0(react@18.2.0)
@@ -4330,8 +4330,8 @@ packages:
       react-dom: 18.2.0(react@18.2.0)
     dev: false
 
-  /react-cookie@4.1.1(react@18.2.0):
-    resolution: {integrity: sha512-ffn7Y7G4bXiFbnE+dKhHhbP+b8I34mH9jqnm8Llhj89zF4nPxPutxHT1suUqMeCEhLDBI7InYwf1tpaSoK5w8A==}
+  /react-cookie@5.0.0(react@18.2.0):
+    resolution: {integrity: sha512-IAO8ff0SP5QN7NZwiPNMr5P0vuCTE2Zm9ailckJqZOfokMddyZTXwCEHreHQGunj5G+EWhHTzTRl0IHmL04hmg==}
     peerDependencies:
       react: '>= 16.3.0'
     dependencies:
