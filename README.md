@@ -8,7 +8,7 @@
   <img src="https://img.shields.io/badge/Next.js-black?style=flat&logo=next.js&logoColor=white" alt="Next.js" />
   <img src="https://img.shields.io/badge/Vercel-black?style=flat&logo=Vercel&logoColor=white" alt="Vercel" />
   <a href="https://ovi.swo.moe"><img src="https://img.shields.io/badge/Documentation-black?style=flat&logo=data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAABmJLR0QA/wD/AP+gvaeTAAABeUlEQVRIie2VwUrDQBCGZ5ZubNmS0Ba9tF6CUqTHpg+g+AhCn8R30DfpM3jRezdHoZJroaBJQ2qgsIEdD7YSsCtJVBTxP87u/t/u7M4swDcLTQNSSseyLFbERCmlPc9LCgF83z/jnE9s294vvk+AJEmesiwbe553awQEQbCXZVnY7/ebjBXa/Ju01jCbzVIA6AwGA7WN1/KT4jg+6vV6TcYYpGlKq9UKiQgAAOr1OnU6HWNKGWPQarWa8/n8GADudwIQ0UJ89QjDEKMoOiEitRm7tm37gnNuPAUiAiJa+VjNNJmIYDgcPiAiAQD4vh9tT1NG5RJdQT8PkFKak/5ZgJTyUgjxPJ1Ob4josArAeMmWZYHrulftdhvX6/X5YrEwPtFKgG63C7ApxEajga7rVvH/BZf8D/hjACJSVRpabj1su+9OgBAiiOM41VqXNtdaw3K5TIUQQT7+rjqllKec84njOAdlAEmSPCqlxqPR6O5DQA70JZ/+t+sFAb2R22dSZ7wAAAAASUVORK5CYII=" alt="Documentation" /></a>
-  <a href="https://telegram.me/Chiheisen_Union"><img alt="Chiheisen Union" /></a>
+  [Chiheisen Union](https://telegram.me/ChiheisenUnion)
 </div>
 
 ## TL;DR
@@ -30,11 +30,11 @@ Showcase, share, preview, and download files inside *your* OneDrive with onedriv
 - Import to Vercel and add an Upstash integration, which imports REDIS_URL env var to Vercel.
 - Trigger a redeploy, and profit. 🎉
 - The deployed Chiheisen-Vercel-Index will guide you through an authorisation process, and store the required tokens in the Redis database. That's all there is to do!
-- For more information follow [Click Here](https://ovi.swo.moe/docs/getting-started#getting-started-for-real-now)
+- For more information follow [Click Here](https://github.com/Chiheisen-Union/Chiheisen-Vercel-Index/wiki/Deployment-Guide)
 
 ## Discussion
 
-Please go to our [discussion forum](https://telegram.me/Chiheisen_Union) for general questions and FAQs, **issues are for bug reports and bug reports only.** Feature requests may or may not be ignored, as [I (@hellfiredevil)](https://telegram.me/Chiheisen_Union) am the only one maintaining the project, so **I only prioritise features that I use.**
+Please go to our [discussion forum](https://telegram.me/ChiheisenUnion) for general questions and FAQs, **issues are for bug reports and bug reports only.** Feature requests may or may not be ignored, as [I (@hellfiredevil)](https://telegram.me/ChiheisenUnion) am the only one maintaining the project, so **I only prioritise features that I use.**
 
 *If you happen to like this project, please give it a star!* :3
 
