@@ -19,7 +19,7 @@ module.exports = {
   // The name of your website. Present alongside your icon.
   title: "Chiheisen Vercel Index",
 
-  // The folder that you are to share publicly with onedrive-vercel-index. Use '/' if you want to share your root folder.
+  // The folder that you are to share publicly with Chiheisen-Vercel-Index. Use '/' if you want to share your root folder.
   baseDirectory: '/Public',
 
   // [OPTIONAL] This represents the maximum number of items that one directory lists, pagination supported.
@@ -28,9 +28,9 @@ module.exports = {
 
   // [OPTIONAL] We use Google Fonts natively for font customisations.
   // You can check and generate the required links and names at https://fonts.google.com.
-  // googleFontSans - the sans serif font used in onedrive-vercel-index.
+  // googleFontSans - the sans serif font used in Chiheisen-Vercel-Index.
   googleFontSans: 'Inter',
-  // googleFontMono - the monospace font used in onedrive-vercel-index.
+  // googleFontMono - the monospace font used in Chiheisen-Vercel-Index.
   googleFontMono: 'Fira Mono',
   // googleFontLinks -  an array of links for referencing the google font assets.
   googleFontLinks: ['https://fonts.googleapis.com/css2?family=Fira+Mono&family=Inter:wght@400;500;700&display=swap'],

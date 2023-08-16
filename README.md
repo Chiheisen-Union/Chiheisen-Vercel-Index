@@ -13,7 +13,7 @@
 
 ## TL;DR
 
-Showcase, share, preview, and download files inside *your* OneDrive with onedrive-vercel-index -
+Showcase, share, preview, and download files inside *your* OneDrive with Chiheisen-Vercel-Index -
 
 - Completely free to host 💸
 - Super fast ⚡ and responsive 💦
@@ -132,7 +132,7 @@ Documentation is hosted at [ovi.swo.moe](https://ovi.swo.moe/).
 - [I deployed this before, how can I upgrade to the latest version?](https://ovi.swo.moe/docs/migration/updating-to-latest-version)
 - [I was here before 2022, how can I migrate to the new version?](https://ovi.swo.moe/docs/migration/if-you-deployed-before-2022)
 - [I got a problem during deployment ...](https://ovi.swo.moe/docs/faqs/error-on-deployment)
-- I didn't find a solution / My problem is unique? [Find help in discussion forum](https://github.com/spencerwooo/onedrive-vercel-index/discussions).
+- I didn't find a solution / My problem is unique? [Find help in discussion forum](https://telegram.me/ChiheisenUnion).
 
 ## Server-*less* (free)?
 
@@ -151,7 +151,7 @@ Open-source is hard! If you happen to like this project and want me to keep goin
 <div align="center">
   <img src="./public/footer.png" />
   <em>Made with ❤️ by <a href="https://telegram.me/Chiheisen">Chiheisen</a></em>
-  <em>Based On <a href="https://github.com/spencerwooo/onedrive-vercel-index">OneDrive-Vercel-Index</a></em>
+  <em>Based On <a href="https://github.com/spencerwooo/Chiheisen-Vercel-Index">OneDrive-Vercel-Index</a></em>
 </div>
 
 ## Credits
