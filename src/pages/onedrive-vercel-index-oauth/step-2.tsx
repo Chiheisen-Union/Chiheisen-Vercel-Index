@@ -118,7 +118,7 @@ export default function OAuthStep2() {
                 disabled={authCode === ''}
                 onClick={() => {
                   setButtonLoading(true)
-                  router.push({ pathname: '/Chiheisen-Vercel-Index-oauth/step-3', query: { authCode } })
+                  router.push({ pathname: '/onedrive-vercel-index-oauth/step-3', query: { authCode } })
                 }}
               >
                 {buttonLoading ? (

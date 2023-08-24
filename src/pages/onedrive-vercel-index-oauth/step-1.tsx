@@ -132,7 +132,7 @@ export default function OAuthStep1() {
               <button
                 className="rounded-lg bg-gradient-to-r from-cyan-500 to-blue-500 px-4 py-2.5 text-center text-sm font-medium text-white hover:bg-gradient-to-bl focus:ring-4 focus:ring-cyan-300 dark:focus:ring-cyan-800"
                 onClick={() => {
-                  router.push('/Chiheisen-Vercel-Index-oauth/step-2')
+                  router.push('/onedrive-vercel-index-oauth/step-2')
                 }}
               >
                 <span>{t('Proceed to OAuth')}</span> <FontAwesomeIcon icon="arrow-right" />
