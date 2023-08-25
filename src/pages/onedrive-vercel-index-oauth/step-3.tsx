@@ -108,7 +108,7 @@ export default function OAuthStep3({ accessToken, expiryTime, refreshToken, erro
               />
             </div>
             <h3 className="mb-4 text-center text-xl font-medium">
-              {t('Welcome to your new Chiheisen-Vercel-Index 🎉')}
+              {t('Welcome to your new onedrive-vercel-index 🎉')}
             </h3>
 
             <h3 className="mt-4 mb-2 text-lg font-medium">{t('Step 3/3: Get access and refresh tokens')}</h3>
@@ -196,7 +196,7 @@ export default function OAuthStep3({ accessToken, expiryTime, refreshToken, erro
                     }
                   ) +
                     t(
-                      "Don't worry, after storing them, Chiheisen-Vercel-Index will take care of token refreshes and updates after your site goes live."
+                      "Don't worry, after storing them, onedrive-vercel-index will take care of token refreshes and updates after your site goes live."
                     )}
                 </p>
 

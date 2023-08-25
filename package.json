@@ -1,5 +1,5 @@
 {
-  "name": "Chiheisen-Vercel-Index",
+  "name": "onedrive-vercel-index",
   "version": "0.1.0",
   "private": true,
   "scripts": {
@@ -38,12 +38,12 @@
     "react": "^18.2.0",
     "react-async-hook": "^4.0.0",
     "react-audio-player": "^0.17.0",
-    "react-cookie": "^6.0.0",
+    "react-cookie": "^4.1.1",
     "react-copy-to-clipboard": "^5.0.3",
     "react-dom": "^18.2.0",
     "react-hot-toast": "^2.4.0",
     "react-hotkeys-hook": "^4.3.3",
-    "react-i18next": "^13.0.0",
+    "react-i18next": "^12.1.4",
     "react-markdown": "^8.0.5",
     "react-reader": "^1.0.2",
     "react-syntax-highlighter": "^15.5.0",
@@ -59,22 +59,22 @@
   "devDependencies": {
     "@types/cors": "^2.8.13",
     "@types/crypto-js": "^4.0.2",
-    "@types/node": "18.17.11",
-    "@types/react": "18.2.21",
+    "@types/node": "18.17.5",
+    "@types/react": "18.2.20",
     "@types/react-copy-to-clipboard": "^5.0.4",
     "@types/react-dom": "^18.0.10",
     "@types/react-pdf": "^6.2.0",
     "@types/react-syntax-highlighter": "^15.5.6",
     "autoprefixer": "^10.4.13",
     "eslint": "8.47.0",
-    "eslint-config-next": "13.4.19",
+    "eslint-config-next": "13.4.13",
     "eslint-config-prettier": "^9.0.0",
     "i18next-parser": "^8.0.0",
     "postcss": "^8.4.21",
     "prettier": "^3.0.0",
     "prettier-plugin-tailwindcss": "^0.5.0",
     "tailwindcss": "^3.2.4",
-    "typescript": "5.2.2"
+    "typescript": "5.1.6"
   },
   "prettier": {
     "printWidth": 120,

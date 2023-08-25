@@ -30,7 +30,7 @@ export default function OAuthStep1() {
               <Image src="/images/fabulous-fireworks.png" width={912} height={912} alt="fabulous fireworks" priority />
             </div>
             <h3 className="mb-4 text-center text-xl font-medium">
-              {t('Welcome to your new Chiheisen-Vercel-Index 🎉')}
+              {t('Welcome to your new onedrive-vercel-index 🎉')}
             </h3>
 
             <h3 className="mt-4 mb-2 text-lg font-medium">{t('Step 1/3: Preparations')}</h3>
@@ -61,7 +61,7 @@ export default function OAuthStep1() {
                 <code className="font-mono text-sm underline decoration-pink-600 decoration-wavy">access_token</code> or{' '}
                 <code className="font-mono text-sm underline decoration-green-600 decoration-wavy">refresh_token</code>{' '}
                 is present on this deployed instance. Check the following configurations before proceeding with
-                authorising Chiheisen-Vercel-Index with your own Microsoft account.
+                authorising onedrive-vercel-index with your own Microsoft account.
               </Trans>
             </p>
 
