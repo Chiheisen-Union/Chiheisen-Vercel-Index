@@ -38,7 +38,7 @@ Please go to our [discussion forum](https://telegram.me/ChiheisenUnion) for gene
 
 *If you happen to like this project, please give it a star!* :3
 
-*If you really, really like this project, please send money! -> [Sponsors 🤑 and donations 💰](https://telegram.me/hellfiredevil)*
+*If you really, really like this project, please send money! -> [Sponsors 🤑 and donations 💰](https://telegram.me/HellFireDevil)*
 
 ## Demo
 
@@ -156,5 +156,5 @@ Open-source is hard! If you happen to like this project and want me to keep goin
 
 ## Credits
 
-- [SpencerWoo](https://github.com/spencerwoo) for making complete repo
+- [SpencerWooo](https://github.com/spencerwooo) for making complete repo
 - [HellFireDevil](https://telegram.me/HellFireDevil) for bringing repo back to life and maintaining it.
