@@ -1,5 +1,5 @@
 {
-  "version": 3,
+  "version": 2,
   "buildCommand": "pnpm install && pnpm build",
   "installCommand": "pnpm install",
   "framework": "nextjs",
