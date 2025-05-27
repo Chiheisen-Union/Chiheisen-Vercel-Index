@@ -43,6 +43,9 @@ const TextPreview = ({ file }) => {
     )
   }
 
+  const url = parseDotUrl(content) || ''
+  const urlWithSpace = url ? ' ' + url : ''
+
   return (
     <div>
       <PreviewContainer>
@@ -51,11 +54,11 @@ const TextPreview = ({ file }) => {
       <DownloadBtnContainer>
         <div className="flex justify-center">
           <DownloadButton
-            onClickCallback={() => window.open(parseDotUrl(content) ?? '')}
+            onClickCallback={() => window.open(url)}
             btnColor="blue"
             btnText={t('Open URL')}
             btnIcon="external-link-alt"
-            btnTitle={t('Open URL{{url}}', { url: ' ' + parseDotUrl(content) ?? '' })}
+            btnTitle={t('Open URL{{url}}', { url: urlWithSpace })}
           />
         </div>
       </DownloadBtnContainer>

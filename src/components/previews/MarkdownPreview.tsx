@@ -7,6 +7,7 @@ import rehypeRaw from 'rehype-raw'
 import { useTranslation } from 'next-i18next'
 import { LightAsync as SyntaxHighlighter } from 'react-syntax-highlighter'
 import { tomorrowNight } from 'react-syntax-highlighter/dist/cjs/styles/hljs'
+import type { Components } from 'react-markdown'
 
 import 'katex/dist/katex.min.css'
 
@@ -15,6 +16,13 @@ import FourOhFour from '../FourOhFour'
 import Loading from '../Loading'
 import DownloadButtonGroup from '../DownloadBtnGtoup'
 import { DownloadBtnContainer, PreviewContainer } from './Containers'
+
+interface CodeComponentProps {
+  node?: any
+  inline?: boolean
+  className?: string
+  children?: ReactNode
+}
 
 const MarkdownPreview: FC<{
   file: any
@@ -29,24 +37,11 @@ const MarkdownPreview: FC<{
 
   // Check if the image is relative path instead of a absolute url
   const isUrlAbsolute = (url: string | string[]) => url.indexOf('://') > 0 || url.indexOf('//') === 0
+
   // Custom renderer:
-  const customRenderer = {
+  const customRenderer: Components = {
     // img: to render images in markdown with relative file paths
-    img: ({
-      alt,
-      src,
-      title,
-      width,
-      height,
-      style,
-    }: {
-      alt?: string
-      src?: string
-      title?: string
-      width?: string | number
-      height?: string | number
-      style?: CSSProperties
-    }) => {
+    img: ({ alt, src, title, width, height, style }) => {
       return (
         // eslint-disable-next-line @next/next/no-img-element
         <img
@@ -60,16 +55,7 @@ const MarkdownPreview: FC<{
       )
     },
     // code: to render code blocks with react-syntax-highlighter
-    code({
-      className,
-      children,
-      inline,
-      ...props
-    }: {
-      className?: string | undefined
-      children: ReactNode
-      inline?: boolean
-    }) {
+    code: ({ node, inline, className, children, ...props }: CodeComponentProps) => {
       if (inline) {
         return (
           <code className={className} {...props}>
@@ -113,14 +99,8 @@ const MarkdownPreview: FC<{
     <div>
       <PreviewContainer>
         <div className="markdown-body">
-          {/* Using rehypeRaw to render HTML inside Markdown is potentially dangerous, use under safe environments. (#18) */}
           <ReactMarkdown
-            // @ts-ignore
             remarkPlugins={[remarkGfm, remarkMath]}
-            // The type error is introduced by caniuse-lite upgrade.
-            // Since type errors occur often in remark toolchain and the use is so common,
-            // ignoring it shoudld be safe enough.
-            // @ts-ignore
             rehypePlugins={[rehypeKatex, rehypeRaw]}
             components={customRenderer}
           >

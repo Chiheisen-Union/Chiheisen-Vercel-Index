@@ -1,7 +1,9 @@
-strict-peer-dependencies=false
 registry=https://registry.npmjs.org/
+network-timeout=100000
 fetch-retries=5
 fetch-retry-mintimeout=20000
 fetch-retry-maxtimeout=120000
 cache-min=3600
-network-timeout=100000
+shamefully-hoist=true
+strict-peer-dependencies=false
+auto-install-peers=true 

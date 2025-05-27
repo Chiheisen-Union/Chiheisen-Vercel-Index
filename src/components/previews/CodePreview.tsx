@@ -1,6 +1,6 @@
 import { FC } from 'react'
 import { useTranslation } from 'next-i18next'
-import useSystemTheme from 'react-use-system-theme'
+import { useTheme } from 'next-themes'
 import { useRouter } from 'next/router'
 
 import { LightAsync as SyntaxHighlighter } from 'react-syntax-highlighter'
@@ -16,8 +16,7 @@ import { DownloadBtnContainer, PreviewContainer } from './Containers'
 const CodePreview: FC<{ file: any }> = ({ file }) => {
   const { asPath } = useRouter()
   const { response: content, error, validating } = useFileContent(`/api/raw/?path=${asPath}`, asPath)
-
-  const theme = useSystemTheme('dark')
+  const { resolvedTheme } = useTheme()
   const { t } = useTranslation()
 
   if (error) {
@@ -45,7 +44,7 @@ const CodePreview: FC<{ file: any }> = ({ file }) => {
       <PreviewContainer>
         <SyntaxHighlighter
           language={getLanguageByFileName(file.name)}
-          style={theme === 'dark' ? tomorrowNightEighties : tomorrow}
+          style={resolvedTheme === 'dark' ? tomorrowNightEighties : tomorrow}
         >
           {content}
         </SyntaxHighlighter>
